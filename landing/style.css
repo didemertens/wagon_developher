@@ -1,9 +1,11 @@
 body {
   font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 .banner{
   background-image: url("images/background.png");
+  background-position: center;
   text-align: center;
   color: white;
   padding: 200px 0px;
@@ -40,7 +42,7 @@ p {
   width: 300px;
   box-shadow: 2px 2px 3px #9ea2a8;
   text-align: center;
-  margin: 20px 0px;
+  margin: 80px 0px;
   padding: 20px;
 
 }
@@ -56,6 +58,8 @@ p {
 
 .list-items{
   display: inline-block;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .cards{
@@ -64,8 +68,13 @@ p {
 }
 
 .footer{
+  height: 80px;
   display: flex;
   justify-content: space-between;
   background-color: #707172;
   color: white;
+}
+
+#rightbt-text{
+  margin: 20px;
 }
