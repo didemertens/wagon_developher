@@ -1,0 +1,71 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.banner{
+  background-image: url("images/background.png");
+  text-align: center;
+  color: white;
+  padding: 200px 0px;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+.btn-blue{
+  text-decoration: none;
+  background-color: #74a4f2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px
+}
+
+.carousel{
+  width: 300px;
+  box-shadow: 2px 2px 3px #9ea2a8;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 20px;
+
+}
+
+.icon{
+  width: 100px;
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0px;
+}
+
+.list-items{
+  display: inline-block;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #707172;
+  color: white;
+}
