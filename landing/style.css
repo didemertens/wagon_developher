@@ -18,7 +18,7 @@ h1{
 
 .btn-blue{
   text-decoration: none;
-  background-color: #74a4f2;
+  background-color: #57a3e5;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;
@@ -44,7 +44,6 @@ p {
   text-align: center;
   margin: 80px 0px;
   padding: 20px;
-
 }
 
 .icon{
@@ -60,6 +59,7 @@ p {
   display: inline-block;
   padding: 10px;
   font-size: 20px;
+  color: white;
 }
 
 .cards{
@@ -73,6 +73,20 @@ p {
   justify-content: space-between;
   background-color: #707172;
   color: white;
+}
+
+.footer .fa-heart{
+  color: #ed5e72;
+}
+
+.footer a{
+  color: white;
+  opacity: 0.5;
+}
+
+.footer a:hover{
+  color: white;
+  opacity: 2;
 }
 
 #rightbt-text{
