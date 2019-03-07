@@ -24,8 +24,8 @@ h1{
   border-radius: 4px;
 }
 
-a:hover {
-  text-decoration: underline;
+.banner a:hover{
+  background-color: #3370a5;
 }
 
 
