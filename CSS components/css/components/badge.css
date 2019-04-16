@@ -1,0 +1,7 @@
+.badge{
+  width: 20px;
+  background: red;
+  position: relative;
+  top: -15px;
+  left: -15px;
+}

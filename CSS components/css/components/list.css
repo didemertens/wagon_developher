@@ -1,0 +1,33 @@
+.product{
+  display: flex;
+  align-items: center;
+}
+
+.product-description{
+  flex: 1 0 auto;
+}
+
+.product-upvotes{
+  text-align: center;
+  padding: 10px;
+}
+
+.product-upvotes:hover{
+  font-size: 18px;
+}
+
+.product-description{
+  margin: 10px;
+}
+
+.product-image{
+  height: 100px;
+}
+
+.product-list a{
+  font-size: 20px;
+}
+
+.product:hover{
+  background: #eff0f2;
+}

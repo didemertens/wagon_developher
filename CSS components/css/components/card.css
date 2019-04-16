@@ -1,0 +1,29 @@
+.card{
+  height: 200px;
+  color: white;
+  background: linear-gradient (135deg,
+                            rgba(0,0,0,0.8) 0%
+                            rgba(0,0,0,0.3) 50%);
+  background-image: url('https://images.unsplash.com/photo-1554419942-5514ab5d4915?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-size: cover;
+  position: relative;
+}
+
+.card-category{
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.card-description{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+.card-image{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+

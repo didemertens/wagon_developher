@@ -1,0 +1,39 @@
+.tabs{
+  background: #4f6d9b;
+  color: white;
+  padding: 10px 10px 0 10px;
+  display: flex;
+}
+
+.tabs h3{
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.tabs p{
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.tabs-items{
+  flex: 1 0 auto;
+  background: #6882aa;
+  text-align: center;
+}
+
+.tabs-items:first-child{
+  border-radius: 10px 0 0 0;
+}
+
+.tabs-items:last-child{
+  border-radius: 0 10px 0 0;
+}
+
+.tabs-items.active{
+  background: white;
+  color: black;
+}
+
+.tabs-items:hover{
+  border: 2px solid white;
+}
